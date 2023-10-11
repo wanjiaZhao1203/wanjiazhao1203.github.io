@@ -731,7 +731,7 @@ pre>code {
 
 .profile-col-1 {
     width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2))
+    width: calc(60% - (30px / 2))
 }
 
 .profile-col-2 {
