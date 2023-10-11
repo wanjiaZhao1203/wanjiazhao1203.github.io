@@ -731,12 +731,12 @@ pre>code {
 
 .profile-col-1 {
     width: -webkit-calc(40% - (30px / 2));
-    width: calc(60% - (30px / 2))
+    width: calc(40% - (30px / 2))
 }
 
 .profile-col-2 {
     width: -webkit-calc(60% - (30px / 2));
-    width: calc(60% - (30px / 2))
+    width: calc(40% - (30px / 2))
 }
 
 @media screen and (max-width: 800px) {
