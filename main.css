@@ -46,7 +46,7 @@ body {
 
 body:after {
     display: none;
-    content: url("images/background/background1.JPG") url("images/background/background-2.jpg")
+    content: url("images/background/background.JPG") url("images/background/background-2.jpg")
 }
 
 h1,
