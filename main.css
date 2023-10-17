@@ -189,7 +189,7 @@ pre>code {
 
 .site-header {
     border-top: 3px solid #9b3022;
-    border-bottom: 1px solid #9b3022;
+    border-bottom: 3px solid #9b3022;
     min-height: 56px;
     position: relative
 }
