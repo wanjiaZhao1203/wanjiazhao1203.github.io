@@ -933,20 +933,21 @@ hr.soft {
 
 .icon-button {
     background-color: white;
-    border-radius: 3.6rem;
+    border-radius: 3rem;  /* 减小边框圆角以适应更小的尺寸 */
     cursor: pointer;
     display: inline-block;
-    font-size: 2.0rem;
-    height: 3.6rem;
-    line-height: 3.6rem;
+    font-size: 1.8rem;  /* 减小字体大小以适应更小的按钮 */
+    height: 3rem;  /* 减小高度 */
+    line-height: 3rem;  /* 调整行高以保持文字垂直居中 */
     margin: 0 5px;
     position: relative;
     text-align: center;
+    top: 15px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 3.6rem
+    width: 3rem;  /* 减小宽度 */
 }
 
 .icon-button span {
@@ -961,15 +962,16 @@ hr.soft {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    width: 0
+    width: 0;
 }
 
 .icon-button:hover span {
-    width: 3.6rem;
-    height: 3.6rem;
-    border-radius: 3.6rem;
-    margin: -1.8rem
+    width: 3rem;  /* 保持与按钮同宽 */
+    height: 3rem;  /* 保持与按钮同高 */
+    border-radius: 3rem;  /* 圆角与按钮保持一致 */
+    margin: -1.5rem;  /* 由于大小变化，调整外边距以保持居中 */
 }
+
 
 .twitter span {
     background-color: #4099ff
@@ -990,16 +992,16 @@ hr.soft {
 .icon-button i {
     background: none;
     color: white;
-    height: 3.6rem;
+    height: 3rem;
     left: 0;
-    line-height: 3.6rem;
+    line-height: 3rem;
     position: absolute;
     top: 0;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    width: 3.6rem;
+    width: 3rem;
     z-index: 10
 }
 
