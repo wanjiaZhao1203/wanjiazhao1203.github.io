@@ -1934,10 +1934,10 @@ div.paginate-container li:nth-last-child(2) a:after {
     }
 }
 
-.hr-align-pub {
+.hr-align-right {
   border: none;
-  border-top: 1px solid #aaa;
-  margin-left: 40px; /* 和 .pub-left 一致 */
-  margin-right: 0;   /* 右边顶到容器末尾 */
+  border-top: 1px solid #aaa; 
+  margin-left: 40px;          
+  margin-right: 0;          
 }
 
