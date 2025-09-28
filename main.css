@@ -1578,9 +1578,10 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .publications {
-    max-width: -webkit-calc(100% - (30px / 2));
-    max-width: calc(100% - (30px / 2));
+    /* max-width: -webkit-calc(100% - (10px / 2));
+    max-width: calc(100% - (10px / 2)); */
     margin-top: 10px;
+    margin-left: 0;
     font-family: 'Roboto', sans-serif, Helvetica
 }
 
@@ -1593,30 +1594,29 @@ div.paginate-container li:nth-last-child(2) a:after {
     /* radius: 15px; */
     /* float: left !important; */
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     /* padding-top: 15px; */
     overflow: auto
 }
 
 .pub-left {
     float: left;
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2));
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto
+    width: -webkit-calc(25% );
+    width: calc(25% );
+    /* text-align: center; */
+    margin-left: 40px;
 }
 
 .pub-left>.intro-img {
-    width: 280px;
+    width: 245px;
     border-style: solid;
     border-color: #9b3022
 }
 
 .pub-right {
     float: right;
-    width: -webkit-calc(60% - (30px / 2));
-    width: calc(60% - (30px / 2))
+    width: -webkit-calc(68% );
+    width: calc(68% )
 }
 
 @media screen and (max-width: 800px) {
@@ -1625,8 +1625,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     .pub-right {
         float: none;
         margin: 10px auto;
-        width: -webkit-calc(100% - (30px / 2));
-        width: calc(100% - (30px / 2))
+        width: -webkit-calc(100% );
+        width: calc(100% )
     }
 }
 
@@ -1635,8 +1635,8 @@ div.paginate-container li:nth-last-child(2) a:after {
         position: relative;
         margin: 10px auto;
         float: none;
-        width: -webkit-calc(100% - (30px / 2));
-        width: calc(100% - (30px / 2))
+        width: -webkit-calc(100% );
+        width: calc(100% )
     }
 }
 
@@ -1933,3 +1933,11 @@ div.paginate-container li:nth-last-child(2) a:after {
         font-size: 18px
     }
 }
+
+.hr-align-right {
+  border: none;
+  border-top: 1px solid #aaa; 
+  margin-left: 40px;          
+  margin-right: 0;          
+}
+
